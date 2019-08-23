@@ -7,7 +7,7 @@ void GADMAdapterMoPubMutableArrayAddObject(NSMutableArray *_Nullable array,
 /// Removes the object for |key| in mapTable if |key| is not nil.
 void GADMAdapterMoPubMapTableRemoveObjectForKey(NSMapTable *_Nullable mapTable, id _Nullable key);
 
-/// Sets |value| for |key| in |mapTable| if |value| is not nil.
+/// Sets |value| for |key| in mapTable if |value| is not nil.
 void GADMAdapterMoPubMapTableSetObjectForKey(NSMapTable *_Nonnull mapTable,
                                              id<NSCopying> _Nullable key, id _Nullable value);
 
