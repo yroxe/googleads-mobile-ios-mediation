@@ -179,12 +179,7 @@
   _rewardedRenderer =
       [[GADMAdapterAppLovinRewardedRenderer alloc] initWithAdConfiguration:adConfiguration
                                                          completionHandler:completionHandler];
-  // If adConfiguration has a bid response, this load call is for open bidding.
-  if (adConfiguration.bidResponse) {
-    [_rewardedRenderer requestRTBRewardedAd];
-  } else {
-    [_rewardedRenderer requestRewardedAd];
-  }
+  [_rewardedRenderer requestRewardedAd];
 }
 
 @end
